@@ -16,7 +16,7 @@ class DB
             $user = "root";
             $pass = "root";
 
-            $this->db = new \PDO($dsn, $user, $pass);
+            $this->db = new PDO($dsn, $user, $pass);
             // do something that can go wrong
         }
         catch (PDOException $e)
