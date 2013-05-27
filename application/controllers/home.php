@@ -26,12 +26,14 @@ class Home extends CI_Controller {
         $config['center'] = 'auto';
         $config['zoom'] = 'auto';
         $config['onboundschanged'] = 'if (!centreGot) {
-	var mapCentre = map.getCenter();
-	marker_0.setOptions({
-		position: new google.maps.LatLng(mapCentre.lat(), mapCentre.lng())
-	});
+	                                    var mapCentre = map.getCenter();
+	                                    marker_0.setOptions({
+		                                    position: new google.maps.LatLng(mapCentre.lat(), mapCentre.lng())
+	    });
 }
 centreGot = true;';
+        $config['geocodeCaching'] = TRUE;
+        $config['minifyJS'] = TRUE;
         $this->googlemaps->initialize($config);
 
 // set up the marker ready for positioning

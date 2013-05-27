@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1f8b8c6-0022-48f3-8b85-3591b2f3f636" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/map.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/map_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/apitest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/footer.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/header.inc.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/genxml.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/views/welcome_message.php" afterPath="$PROJECT_DIR$/application/views/home_message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdd.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/DB.php" afterPath="$PROJECT_DIR$/application/models/DB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
     </list>
     <ignored path="MDD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,19 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="21" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-16.041666">
+            <state line="34" column="41" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.4034091">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="224" selection-start="382" selection-end="382" vertical-scroll-proportion="0.5984042">
+            <state line="15" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,8 +140,8 @@
         <option value="$PROJECT_DIR$/application/models/map_model.php" />
         <option value="$PROJECT_DIR$/application/views/home_message.php" />
         <option value="$PROJECT_DIR$/application/views/apitest.php" />
-        <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/application/controllers/home.php" />
       </list>
     </option>
   </component>
@@ -333,7 +324,11 @@
       <created>1369631453501</created>
       <updated>1369631453501</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Started with the maps api">
+      <created>1369631869588</created>
+      <updated>1369631869588</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -397,7 +392,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadMe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started with the maps api" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -411,6 +406,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Updated ReadMe" />
+    <MESSAGE value="Started with the maps api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -500,16 +496,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="21" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-16.041666">
+        <state line="15" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="224" selection-start="382" selection-end="382" vertical-scroll-proportion="0.5984042">
+        <state line="34" column="41" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.4034091">
           <folding />
         </state>
       </provider>
