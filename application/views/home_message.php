@@ -1,17 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
-    <?php echo $map['js']; ?>
-</head>
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: ericmurphy
+ * Date: 5/2/13
+ * Time: 3:26 PM
+ * To change this template use File | Settings | File Templates.
+ */
 
-<body>
+//include 'application/models/map_model.php';
 
-    <?php echo $map['html']; ?>
+//header stuff
+//$this->load->view('application/views/header.inc.php');
 
-</body>
-<script type="text/javascript">
-    var centreGot = false;
-</script>
-</html>
+// Show the goods
+include 'application/models/map_model.php';
+include 'application/views/header.inc.php';
+echo $map['html'];
+
+
+//Footer Stuff
+//$this->load->view("application/views/footer.inc.php");
+include 'application/views/footer.inc.php';

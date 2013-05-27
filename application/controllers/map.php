@@ -1,4 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+include 'DB.php';
 class Map extends CI_Controller {
     function __construct()
     {
@@ -16,11 +17,13 @@ class Map extends CI_Controller {
         $this->googlemaps->initialize($config);
 // Get the co-ordinates from the database using our model
         $coords = $this->map_model->get_coordinates();
+        echo var_dump($coords);
 // Loop through the coordinates we obtained above and add them to the map
         foreach ($coords as $coordinate) {
             $marker = array();
             $marker['position'] = $coordinate->lat.','.$coordinate->lng;
             $this->googlemaps->add_marker($marker);
+            echo var_dump($coordinate);
         }
 // Create the map
         $data = array();

@@ -14,7 +14,7 @@ class DB
         {
             $dsn = "mysql:host=127.0.0.1;port=8889;dbname=mdd";
             $user = "root";
-            $pass = "root";
+            $pass ="root";
 
             $this->db = new PDO($dsn, $user, $pass);
             // do something that can go wrong

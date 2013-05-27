@@ -49,7 +49,7 @@ centreGot = true;';
         $data['map'] = $this->googlemaps->create_map();
 
         $this->load->view('home_message', $data);
-        $this->load->view('apitest', $data);
+        //$this->load->view('apitest', $data);
 	}
 }
 
