@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f8b8c6-0022-48f3-8b85-3591b2f3f636" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/apitest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/footer.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/header.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/home_message.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/map.php" afterPath="$PROJECT_DIR$/application/controllers/map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/DB.php" afterPath="$PROJECT_DIR$/application/models/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/map_model.php" afterPath="$PROJECT_DIR$/application/models/map_model.php" />
-    </list>
+    <list default="true" id="d1f8b8c6-0022-48f3-8b85-3591b2f3f636" name="Default" comment="" />
     <ignored path="MDD.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +43,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="35" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.68451244">
+            <state line="35" column="59" selection-start="1321" selection-end="1321" vertical-scroll-proportion="1.0038241">
               <folding />
             </state>
           </provider>
@@ -331,7 +319,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="22" width="1336" height="715" extended-state="0" />
+    <frame x="60" y="22" width="1336" height="715" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -463,7 +451,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="35" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.68451244">
+        <state line="35" column="59" selection-start="1321" selection-end="1321" vertical-scroll-proportion="1.0038241">
           <folding />
         </state>
       </provider>
