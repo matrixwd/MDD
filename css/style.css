@@ -18,6 +18,10 @@
         width: 100%;
     }
 
+    .logoLink{
+        margin: 10px 30px;
+    }
+
     #wrapper {
         background-color: #363636;
     }
@@ -36,6 +40,17 @@
         font-weight: normal;
         margin: 0 0 14px 0;
         padding: 14px 15px 10px 15px;
+    }
+
+    h2 {
+        color: #cc1616;
+        background-color: transparent;
+        border-bottom: 1px solid #D0D0D0;
+        font-size: 19px;
+        font-weight: normal;
+        margin: 0 0 14px 0;
+        padding: 14px 15px 10px 15px;
+        text-align: center;
     }
 
     code {
@@ -88,11 +103,17 @@
         background-color: #363636;
         margin: 20px;
     }
+    .logoLink{
+        margin: 10px 30px;
+    }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
+    .logoLink{
+        margin: 10px 30px;
+    }
 }
 
 /* Landscape phones and down */

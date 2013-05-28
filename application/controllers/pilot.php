@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-    class Map extends CI_Controller {
+    class Pilot extends CI_Controller {
 
         function __construct() {
             parent::__construct();
@@ -34,7 +34,7 @@
             // once we know the users location
             $marker = array();
             $marker['animation'] = 'DROP';
-
+            $marker['icon'] = 'img/here.png';
             $this->googlemaps->add_marker($marker);
 
             //End get user location

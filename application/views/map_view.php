@@ -1,3 +1,4 @@
+<?php include 'application/views/header.php'?>
 <script type="text/javascript">
     var centreGot = false;
 </script>
@@ -7,9 +8,10 @@
 <body>
 
 <header>
-
+    <?php include 'includes/map_nav.php'; ?>
 </header>
-<?php include 'application/views/header.php'?>
+
+<div id="wrapper">
 
 <?php echo $map['html']; ?>
 

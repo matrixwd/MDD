@@ -3,7 +3,7 @@
 <body>
 
 <header>
-    <?php include 'includes/nav.php'; ?>
+    <?php include 'includes/map_nav.php'; ?>
 </header>
 
 <div id="wrapper">
