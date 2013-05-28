@@ -9,7 +9,7 @@ class Map_model extends CI_Model {
 	
 	public function get_coordinates(){
 		$return = array();
-		$this->db->select("lat,lng");
+		$this->db->select("lat,lng,type");
 		$this->db->from("markers");
 		$query = $this->db->get();
 		if ($query->num_rows()>0) {

@@ -45,10 +45,14 @@ class TA extends CI_Controller {
 
         // Loop through the coordinates we obtained above and add them to the map
         foreach ($coords as $coordinate) {
-            $marker = array();
-            $marker['position'] = $coordinate->lat.','.$coordinate->lng;
-            $marker['icon'] = 'img/TALogoSM.png';
-            $this->googlemaps->add_marker($marker);
+            if($coordinate->type = 'ta'){
+                $marker = array();
+                $marker['position'] = $coordinate->lat.','.$coordinate->lng;
+                $marker['icon'] = 'img/TALogoSM.png';
+                $this->googlemaps->add_marker($marker);
+            }else{
+
+            }
         }
 
         // Create the map
