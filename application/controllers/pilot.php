@@ -34,6 +34,7 @@
             // once we know the users location
             $marker = array();
             $marker['animation'] = 'DROP';
+
             $this->googlemaps->add_marker($marker);
 
             //End get user location
@@ -46,6 +47,7 @@
             foreach ($coords as $coordinate) {
                 $marker = array();
                 $marker['position'] = $coordinate->lat.','.$coordinate->lng;
+                $marker['icon'] = 'img/pilotLogoSM.png';
                 $this->googlemaps->add_marker($marker);
             }
 
