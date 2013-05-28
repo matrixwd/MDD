@@ -1,0 +1,1 @@
+<a href="/MDD/"> <img src="img/siteLogo.png" alt="Ultimate Truck Stop Finder Home"/></a>

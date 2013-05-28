@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /MDD/
+
+#Un Comment this on a live web server. What this does is is forces the url to show the www. part of the URL
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]

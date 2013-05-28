@@ -9,8 +9,10 @@
 <header>
 
 </header>
-<?php include 'application/views/header.php'?>
+
+<?php include 'application/views/templates/header.php'?>
 
 <?php echo $map['html']; ?>
 
-<?php include 'application/views/footer.php';?>
+<?php include 'application/views/templates/footer.php';?>
+
