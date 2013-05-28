@@ -13,3 +13,7 @@ CodeIgniter Google Maps V3 API Library located <a href="https://github.com/BIOST
 
 
 To install this app I used the MAMP default install, so all is that really needs to be done is to download the zip file unzip it into your htdocs folder, and then run the sql dump file to create the database tables and data.
+
+
+Features for future releases:
+Ability to select by state, or radious of 25, 50, and 100 miles.
