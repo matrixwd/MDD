@@ -16,4 +16,7 @@ To install this app I used the MAMP default install, so all is that really needs
 
 
 Features for future releases:
+
 Ability to select by state, or radious of 25, 50, and 100 miles.
+
+Allow users to plot points on the map as "Other" and store it in the data base.
